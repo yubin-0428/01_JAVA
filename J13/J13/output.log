@@ -1,0 +1,85 @@
+2022-02-21 09:25:16,923 DEBUG [main] cmn.LoggerManager (CheckedExceptionMain.java:9)     - =================
+2022-02-21 09:29:42,733 DEBUG [main] cmn.LoggerManager (CheckedExceptionMain.java:12)     - =================
+2022-02-21 09:31:42,321 DEBUG [main] cmn.LoggerManager (CheckedExceptionMain.java:12)     - =================
+2022-02-21 09:31:42,323 DEBUG [main] cmn.LoggerManager (CheckedExceptionMain.java:23)     - getMessage:a.txt (지정된 파일을 찾을 수 없습니다)
+2022-02-21 09:41:37,727 DEBUG [main] cmn.LoggerManager (CheckedExceptionMain.java:12)     - =================
+2022-02-21 10:06:31,261 DEBUG [main] cmn.LoggerManager (TryCatchFinallyMain.java:36)     - 1
+2022-02-21 10:06:31,264 DEBUG [main] cmn.LoggerManager (TryCatchFinallyMain.java:41)     - 2.FileNotFoundException:a.txt (지정된 파일을 찾을 수 없습니다)
+2022-02-21 10:07:01,368 DEBUG [main] cmn.LoggerManager (TryCatchFinallyMain.java:36)     - 1
+2022-02-21 10:07:01,370 DEBUG [main] cmn.LoggerManager (TryCatchFinallyMain.java:41)     - 2.FileNotFoundException:a.txt (지정된 파일을 찾을 수 없습니다)
+2022-02-21 10:07:01,370 DEBUG [main] cmn.LoggerManager (TryCatchFinallyMain.java:43)     - 3.finally 무조건 수행!
+2022-02-21 10:08:15,302 DEBUG [main] cmn.LoggerManager (TryCatchFinallyMain.java:36)     - 1
+2022-02-21 10:08:15,304 DEBUG [main] cmn.LoggerManager (TryCatchFinallyMain.java:39)     - 1-1
+2022-02-21 10:08:15,304 DEBUG [main] cmn.LoggerManager (TryCatchFinallyMain.java:44)     - 3.finally 무조건 수행!
+2022-02-21 10:08:15,304 DEBUG [main] cmn.LoggerManager (TryCatchFinallyMain.java:53)     - 프로그램 종료!
+2022-02-21 10:19:06,224 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:25)     - 1
+2022-02-21 10:19:06,226 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:26)     - 2
+2022-02-21 10:19:06,226 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:29)     - 3
+2022-02-21 10:19:06,226 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:34)     - 5 ArithmeticException
+2022-02-21 10:19:06,226 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:38)     - 7 finally
+2022-02-21 10:19:06,226 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:41)     - 8 종료
+2022-02-21 10:21:47,894 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:25)     - 1
+2022-02-21 10:21:47,896 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:26)     - 2
+2022-02-21 10:21:47,896 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:29)     - 3
+2022-02-21 10:21:47,896 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:36)     - 5-1 ArrayIndexOutOfBoundsException
+2022-02-21 10:21:47,896 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:40)     - 7 finally
+2022-02-21 10:21:47,896 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:43)     - 8 종료
+2022-02-21 10:22:40,753 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:25)     - 1
+2022-02-21 10:22:40,754 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:26)     - 2
+2022-02-21 10:22:40,754 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:29)     - 3
+2022-02-21 10:22:40,755 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:36)     - 5-1 ArrayIndexOutOfBoundsException
+2022-02-21 10:22:40,755 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:40)     - 7 finally
+2022-02-21 10:22:40,755 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain.java:43)     - 8 종료
+2022-02-21 10:24:04,305 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:25)     - 1
+2022-02-21 10:24:04,307 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:26)     - 2
+2022-02-21 10:24:04,307 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:29)     - 3
+2022-02-21 10:24:04,307 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:34)     - 5 4
+2022-02-21 10:24:04,307 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:38)     - 7 finally
+2022-02-21 10:24:04,307 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:41)     - 8 종료
+2022-02-21 10:25:59,052 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:25)     - 1
+2022-02-21 10:25:59,053 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:26)     - 2
+2022-02-21 10:25:59,053 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:29)     - 3
+2022-02-21 10:25:59,054 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:38)     - 5.ArrayIndexOutOfBoundsException:4
+2022-02-21 10:25:59,054 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:44)     - 7 finally
+2022-02-21 10:25:59,054 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:47)     - 8 종료
+2022-02-21 10:31:53,152 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:25)     - 1
+2022-02-21 10:31:53,153 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:26)     - 2
+2022-02-21 10:31:53,153 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:29)     - 3
+2022-02-21 10:31:53,153 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:37)     - 5. ArithmeticException:/ by zero
+2022-02-21 10:31:53,154 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:45)     - 7 finally
+2022-02-21 10:31:53,154 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:48)     - 8 종료
+2022-02-21 10:33:18,423 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:25)     - 1
+2022-02-21 10:33:18,424 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:26)     - 2
+2022-02-21 10:33:18,424 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:29)     - 3
+2022-02-21 10:33:18,425 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:37)     - 5. ArithmeticException:/ by zero
+2022-02-21 10:33:18,425 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:45)     - 7 finally
+2022-02-21 10:33:18,425 DEBUG [main] cmn.LoggerManager (MultiBlockExceptionMain02.java:48)     - 8 종료
+2022-02-21 11:09:36,714 DEBUG [main] cmn.LoggerManager (ThrowMain.java:29)     - 1
+2022-02-21 11:09:36,716 DEBUG [main] cmn.LoggerManager (ThrowMain.java:35)     - 3.예외 발생!
+2022-02-21 11:09:36,716 DEBUG [main] cmn.LoggerManager (ThrowMain.java:36)     - 3.1Exception: 예외 발생 시키기(고의)
+2022-02-21 11:09:36,716 DEBUG [main] cmn.LoggerManager (ThrowMain.java:39)     - 프로그램 종료
+2022-02-21 11:20:27,966 DEBUG [main] cmn.LoggerManager (ThrowsMain.java:32)     - methodA()
+2022-02-21 11:20:45,596 DEBUG [main] cmn.LoggerManager (ThrowsMain.java:32)     - methodA()
+2022-02-21 11:23:18,373 DEBUG [main] cmn.LoggerManager (ThrowsMain02.java:32)     - methodA()
+2022-02-21 11:23:18,375 DEBUG [main] cmn.LoggerManager (ThrowsMain02.java:41)     - main() 예외처리
+2022-02-21 11:23:18,375 DEBUG [main] cmn.LoggerManager (ThrowsMain02.java:42)     - 메서드A 예외 발생!
+2022-02-21 11:44:52,540 DEBUG [main] cmn.LoggerManager (UserExceptionMain.java:29)     - ticketing(): -9
+2022-02-21 11:44:52,541 DEBUG [main] cmn.LoggerManager (UserExceptionMain.java:39)     - main AgeException
+2022-02-21 11:44:52,542 DEBUG [main] cmn.LoggerManager (UserExceptionMain.java:40)     - getMessage: 나이를 확인 하세요.
+나이는 >0
+2022-02-21 11:47:37,797 DEBUG [main] cmn.LoggerManager (UserExceptionMain.java:29)     - ticketing(): -9
+2022-02-21 11:47:59,867 DEBUG [main] cmn.LoggerManager (UserExceptionMain.java:39)     - main AgeException
+2022-02-21 11:48:17,572 DEBUG [main] cmn.LoggerManager (UserExceptionMain.java:40)     - getMessage: 나이를 확인 하세요.
+나이는 >0
+2022-02-21 12:10:17,969 DEBUG [main] cmn.LoggerManager (IDFormatExceptionMain.java:46)     - IDFormatException: 아이디는 null일수 없습니다.
+2022-02-21 12:10:17,970 DEBUG [main] cmn.LoggerManager (IDFormatExceptionMain.java:50)     - 프로그램 종료
+2022-02-21 12:10:51,427 DEBUG [main] cmn.LoggerManager (IDFormatExceptionMain.java:46)     - IDFormatException: 아이디는 8자이상 20자 이하로 사용하세요.
+2022-02-21 12:10:51,431 DEBUG [main] cmn.LoggerManager (IDFormatExceptionMain.java:50)     - 프로그램 종료
+2022-02-21 12:36:04,014 DEBUG [main] cmn.LoggerManager (Date01Main.java:28)     - 시작시간: 1645414563942
+2022-02-21 12:38:50,351 DEBUG [main] cmn.LoggerManager (Date01Main.java:28)     - 시작시간: 1645414730285
+2022-02-21 12:38:50,354 DEBUG [main] cmn.LoggerManager (Date01Main.java:35)     - 종료시간: 1645414730354
+2022-02-21 12:39:27,805 DEBUG [main] cmn.LoggerManager (Date01Main.java:28)     - 시작시간: 1645414767736
+2022-02-21 12:39:27,816 DEBUG [main] cmn.LoggerManager (Date01Main.java:37)     - 종료시간: 1645414767816
+2022-02-21 12:39:52,073 DEBUG [main] cmn.LoggerManager (Date01Main.java:28)     - 시작시간: 1645414792007
+2022-02-21 12:39:52,080 DEBUG [main] cmn.LoggerManager (Date01Main.java:37)     - 종료시간: 1645414792080
+2022-02-21 12:39:52,080 DEBUG [main] cmn.LoggerManager (Date01Main.java:38)     - 경과시간:73ms
